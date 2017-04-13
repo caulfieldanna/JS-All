@@ -64,14 +64,14 @@ console.log(calendar(11, 67, 44, 12, 98, 33, 199));
 
 /////////////////////////////////
 
-// var autoSumm = function (m, n) {
-// var summ = 0;
-// for (i = m; i <= n; i++) {
-// 	summ = summ + i;
-// 	return(summ);
-// }
-// console.log(autoSumm); 
-// }
+var autoSumm = function (m, n) {
+var summ = 0;
+for (i = m; i <= n; i++) {
+	summ = summ + i;
+	return(summ);
+    };
+};
+console.log(autoSumm); 
 
 
 //////////////////////////////////////////

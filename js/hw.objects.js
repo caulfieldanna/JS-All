@@ -34,16 +34,38 @@
 
 ///////
 
-function filter(arr, func) {
-  var temp = [];
-for (var i; i < arr.length; i++) {
-	if (func(arr[i])) {
-		temp.push(arr[i])
-	};
-};
- return temp;
-};
+// function filter(arr, func) {
+//   var temp = [];
+// for (var i; i < arr.length; i++) {
+// 	if (func(arr[i])) {
+// 		temp.push(arr[i])
+// 	};
+// };
+//  return temp;
+// };
 
-var array = filter([1, 2, 3], function(x){return (x < 0);});
-console.log(array);
+// var array = filter([1, 2, 3], function(x){return (x < 0);});
+// console.log(array);
 
+//////////
+
+ // var student = {
+ // 	name : 'Ivan',
+ // 	age: 21,
+ // 	outputToConsole: function() {
+ // 		console.log(this.name + '.Возраст' + this.age)
+ // 	}
+ // }; 
+
+ 
+ function pred(x) {
+ 	return x < 0;
+ }
+ function filter(arr, predFunc) {
+ 	var arrResult = [];
+ 	for (var i = 0; i < arrResult.length; i++) {
+ 		if (predFunc(arrResult[i])) arrResult.push(arrResult[i]);
+ 	}
+ 	return console.log(arrResult);
+ }
+ filter(arr,predFunc);
