@@ -10,7 +10,7 @@
 	}
 	function colorGen() {
 		return 'color: rgb('+ fromMinToMax(0, 255) + ',' + fromMinToMax(0, 255) + ',' +  fromMinToMax(0, 255) + ')';
-	}
+	};
 
 	// var s = 16;
 	window.Game = function(s) {
