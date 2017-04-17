@@ -15,7 +15,7 @@
 	// var s = 16;
 	window.Game = function(s) {
 		var arr = [];
-		for (var i = 0; i < s*s; i++)
+		for (var i = 1; i <= s*s; i++)
 			arr.push(i);
 		var str = '<table><tbody>';
 		for (var i = 0; i < s; i++) {
